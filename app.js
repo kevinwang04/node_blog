@@ -41,7 +41,7 @@ app.use(bodyParser.urlencoded({
 app.use(bodyParser.json());  
 
 //监听这个端口
-app.listen(port)
+app.listen(port);
 
 //打印端口信息
 console.log("Express server listening on:" + port); 
